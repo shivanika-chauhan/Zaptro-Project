@@ -9,6 +9,7 @@ import ScrollToTop from 'react-scroll-to-top'
 import { DataProvider } from './context/DataContext.jsx'
 import { CartProvider } from './context/CartContext.jsx'
 
+
 // Import your Publishable Key
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
 
