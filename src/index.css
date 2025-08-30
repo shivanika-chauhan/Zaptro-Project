@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/*clerk user button*/
+.cl-avatarBox {
+    width: 3rem;
+    height: 3rem;
+}
+/*caursal arrow*/
+.arrows{
+    height: 40px;
+    width: 40px;
+    margin: 1px;
+}
+/* input colour*/
+input{
+    background-color: #ffffff;
+    accent-color: red;
+    border: 1px solid;
+    color: #333;
+}
