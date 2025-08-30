@@ -1,6 +1,6 @@
 import React from "react";
 import { FaFilter } from "react-icons/fa6";
-import { getData } from "../Context/DataContext";
+import { getData } from "../context/DataContext";
 
 const MobileFilter = ({
   openFilter,

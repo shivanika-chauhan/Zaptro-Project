@@ -1,7 +1,7 @@
 import React from 'react'
 import {IoCartOutline} from 'react-icons/io5'
 import { useNavigate } from 'react-router-dom'
-import { useCart } from '../Context/CartContext'
+import { useCart } from '../context/CartContext'
 const ProductCard = ({product}) => {
   const navigate = useNavigate()
   const {addToCart, cartItem} = useCart()

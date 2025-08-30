@@ -1,5 +1,5 @@
 import React from 'react'
-import { getData } from '../Context/DataContext'
+import { getData } from '../context/DataContext'
 import { useNavigate } from 'react-router-dom'
 
 const Category = () => {
