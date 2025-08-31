@@ -1,6 +1,6 @@
 //  Cart.jsx
 import React from 'react'
-import { useCart } from '../file/CartContext'
+import { useCart } from '../Context/CartContext'
 import { FaRegTrashAlt } from 'react-icons/fa'
 import { LuNotebookText } from 'react-icons/lu'
 import { MdDeliveryDining } from 'react-icons/md'

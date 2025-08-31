@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom'
 import Loading from "../assets/2.webm"
 import Breadcrums from '../components/Breadcrums';
 import { IoCartOutline } from 'react-icons/io5';
-import { useCart } from '../file/CartContext';
+import { useCart } from '../Context/CartContext';
 
 const SingleProduct = () => {
     const params = useParams()
