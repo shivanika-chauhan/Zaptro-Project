@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { getData } from "../context/DataContext";
+import { getData } from "../file/DataContext";
 import FilterSection from "../components/FilterSection";
 import ProductCard from "../components/ProductCard";
 import Pagination from "../components/Pagination";

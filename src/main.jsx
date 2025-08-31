@@ -6,8 +6,8 @@ import { ClerkProvider } from '@clerk/clerk-react'
 
 import { ToastContainer } from 'react-toastify'
 import ScrollToTop from 'react-scroll-to-top'
-import { DataProvider } from './context/DataContext.jsx'
-import { CartProvider } from './context/CartContext.jsx'
+import { DataProvider } from './Context/DataContext.jsx'
+import { CartProvider } from './Context/CartContext.jsx'
 
 
 // Import your Publishable Key
@@ -15,7 +15,7 @@ const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
 
 if (!PUBLISHABLE_KEY) {
   throw new Error("Missing Publishable Key")
-}
+}cddcd
 
 createRoot(document.getElementById('root')).render(
   // <StrictMode>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import {useCart} from '../context/CartContext'
+import {useCart} from '../file/CartContext'
 const ProductListView = ({ product }) => {
   const navigate = useNavigate()
   const {addToCart} = useCart()
